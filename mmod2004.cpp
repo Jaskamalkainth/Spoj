@@ -44,7 +44,6 @@ typedef vector<long long>  vll;
 #define debug(x)	       {cerr <<#x<<" = " <<x<<"\n"; }
 #define debug2(x, y)       {cerr <<#x<<" = " <<x<<", "<<#y <<" = " <<y <<"\n";}
 #define ss                 second
-#define ff                 first
 #define m0(x) 		       memset(x,0,sizeof(x))
 #define snuke(c,itr)       for(__typeof((c).begin()) itr=(c).begin();itr!=(c).end();itr++)
 
