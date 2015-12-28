@@ -13,7 +13,6 @@
 #include <stack>
 #include <set>
 #include <cstring>
-#include <list>
 #include <map>
 #include <iomanip>
 #include <algorithm>
