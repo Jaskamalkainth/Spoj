@@ -109,7 +109,11 @@ void build(int id ,int left ,int right)
 node query(int id , int left , int right ,int lq ,int rq)
 {
 	if(left > rq || right < lq )
-		return node(-999999);
+	{
+		node n(-1000000);
+		n.sum = 0;
+		return n;
+	}
 	
 	if(left >= lq && right <= rq)
 	{
